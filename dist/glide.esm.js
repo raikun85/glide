@@ -1614,7 +1614,7 @@ function Sizes (Glide, Components, Events) {
      * @return {Number}
      */
     get: function get() {
-      return Sizes.slideWidth * Sizes.length + Components.Gaps.grow + Components.Clones.grow;
+      return Sizes.slideWidth * Sizes.length + Components.Gaps.grow + Components.Clones.grow + 50;
     }
   });
 
@@ -1625,7 +1625,7 @@ function Sizes (Glide, Components, Events) {
      * @return {Number}
      */
     get: function get() {
-      return Sizes.width / Glide.settings.perView - Components.Peek.reductor - Components.Gaps.reductor;
+      return 289;
     }
   });
 
